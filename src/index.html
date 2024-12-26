@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework-10</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Task 1 -->
+      <div class="modal-overlay hidden">
+        <div class="modal">
+            <h2 class="modal-title">Чи забулися ви підписатися на нас?</h2>
+            <div class="modal-couple">
+                <button type="button" class="modal-button modal-yes">Так</button>
+                <button type="button" class="modal-button modal-no">Ні</button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Task 2 -->
+      <section class="animate-elements">
+        <ul class="animate-list">
+          <li class="animate-item">
+            <img class="animate-image" src="./images/kutya.webp" alt="Кутя">
+          </li>
+          <li class="animate-item">
+            <img class="animate-image" src="./images/varenyky.webp" alt="Вареники">
+          </li>
+          <li class="animate-item">
+            <img class="animate-image" src="./images/borscht.webp" alt="Борщ">
+          </li>
+        </ul>
+      </section>
+
+      <!-- Task 3 -->
+      <section class="interactive-game">
+        <div class="interactive-box">
+          <p class="interactive-result">Зароблено: 0 $ITCOIN</p>
+          <p class="interactive-timer">10</p>
+        </div>
+        <button class="interactive-button" type="button">IT Coin</button>
+        <button class="start-button" type="button">Старт</button>
+      </section>
+
+      <!-- i = interactive -->
+
+      <div class="modal-i-overlay hidden">
+        <div class="modal-i">
+            <h2 class="modal-i-title"></h2>
+            <button class="modal-i-close" type="button">Закрити</button>
+        </div>
+      </div>
+
+      <!-- Task 4 -->
+      <section class="time">
+        <div class="time-container">
+          <label class="label" for="timeInput">Введіть час (у секундах):</label>
+          <input type="number" class="time-input" min="1" placeholder="Введіть час">
+          <button class="time-start-button">Почати</button>
+          <div class="message"></div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
